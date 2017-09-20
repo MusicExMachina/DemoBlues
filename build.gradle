@@ -1,0 +1,16 @@
+group 'com.musicexmachina'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.github.MusicExMachina.MxM:0.1.0-alpha'
+}
