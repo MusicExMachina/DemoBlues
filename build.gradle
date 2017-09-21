@@ -12,5 +12,8 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.MusicExMachina.MxM:0.1.0-alpha'
+    // This is how we include the MxM core module:
+    compile 'com.github.MusicExMachina.MxM:mxm-core:0.1.1-alpha'
+    // If we wanted the whole project, we would use:
+    // compile 'com.github.MusicExMachina:MxM:0.1.1-alpha'
 }
